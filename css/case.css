@@ -1,0 +1,63 @@
+.banner {
+  width: 100%;
+  height: 460px;
+  background: url("../images/case/banner.png") center no-repeat;
+}
+/* 案例 */
+.by-case {
+  width: 100%;
+  padding: 30px 0 40px;
+}
+.by-case .content-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  text-align: center;
+}
+.by-case .content-name {
+  color: #999999;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
+}
+.by-case .case-list {
+  width: 100%;
+}
+.by-case .case-list ul li {
+  float: left;
+  width: 200px;
+  height: 230px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.by-case .case-list ul li p{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.by-case .case-list ul li img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.by-case .case-list ul li img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.by-case .case-list ul li:nth-of-type(1),
+.by-case .case-list ul li:nth-of-type(7) {
+  margin-left: 0;
+}
+.by-case .case-list h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333333;
+  padding-top: 10px;
+}
+.by-case .more {
+  display: block;
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  margin-top: 50px;
+}

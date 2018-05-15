@@ -1,0 +1,301 @@
+/* 轮播图 */
+.swiper-container {
+  margin-top: 300px;
+  height: 460px;
+  width: 100%;
+  overflow: hidden;
+}
+.swiper-container .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* .banner{
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background: url("../images/index/banner1.png")  center  no-repeat;
+} */
+/* 内容 */
+.by-content {
+  width: 100%;
+}
+.by-content .container {
+  padding-top: 20px;
+  /* 优势 */
+  /*  核心产品 */
+  /* 案例 */
+  /* 行业客户  */
+}
+.by-content .container .by-advantage {
+  width: 100%;
+}
+.by-content .container .by-advantage .content-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  text-align: center;
+}
+.by-content .container .by-advantage .content-name {
+  color: #999999;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
+}
+.by-content .container .by-advantage .content-advantage {
+  width: 100%;
+}
+.by-content .container .by-advantage .content-advantage ul {
+  margin-left: -60px;
+}
+.by-content .container .by-advantage .content-advantage ul li {
+  float: left;
+  width: 280px;
+  height: 351px;
+  margin-left: 60px;
+  position: relative;
+  margin-top: 30px;
+}
+.by-content .container .by-advantage .content-advantage ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.by-content .container .by-advantage .content-advantage ul li a img {
+  width: 280px;
+  height: 300px;
+  display: block;
+}
+.by-content .container .by-advantage .content-advantage ul li h4 {
+  color: #333333;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+.by-content .container .by-advantage .content-advantage ul li .twrap {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.by-content .container .by-advantage .content-advantage ul li .twrap .tit {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 120px;
+}
+.by-content .container .by-advantage .content-advantage ul li .twrap .tit .tch {
+  font-size: 16px;
+  line-height: 36px;
+}
+.by-content .container .by-advantage .content-advantage ul li .twrap .tit .tmore {
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 16px;
+  color: #fff;
+  width: 90px;
+  height: 36px;
+  border-radius: 6px;
+  margin: 76px auto;
+}
+.by-content .container .by-product {
+  width: 100%;
+  margin-top: 30px;
+}
+.by-content .container .by-product .content-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  text-align: center;
+}
+.by-content .container .by-product .content-name {
+  color: #999999;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
+}
+.by-content .container .by-product .content-product {
+  width: 100%;
+}
+.by-content .container .by-product .content-product ul {
+  margin-left: -25px;
+}
+.by-content .container .by-product .content-product ul li {
+  float: left;
+  width: 240px;
+  height: 220px;
+  margin-left: 25px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.by-content .container .by-product .content-product ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.by-content .container .by-product .content-product ul li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.by-content .container .by-product .content-product ul li a .twrap {
+  position: absolute;
+  overflow: hidden;
+  top: 160px;
+  width: 100%;
+  height: 100%;
+  transition: All 0.8s ease-in-out;
+  -webkit-transition: All 0.8s ease-in-out;
+  -moz-transition: All 0.8s ease-in-out;
+  -o-transition: All 0.8s ease-in-out;
+}
+.by-content .container .by-product .content-product ul li a .twrap .tit {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+.by-content .container .by-product .content-product ul li a .twrap .tit .tch {
+  font-size: 18px;
+  line-height: 40px;
+}
+.by-content .container .by-product .content-product ul li a .twrap .tit .tmore {
+  width: 90px;
+  height: 36px;
+  border-radius: 6px;
+  border: solid 1px #ffffff;
+  line-height: 36px;
+  text-align: center;
+  margin: 100px auto 0;
+  font-size: 16px;
+  color: #fff;
+}
+.by-content .container .by-product .content-product ul li a .twrap .bgcolor {
+  background-color: #101010;
+  text-align: center;
+  opacity: .4;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+.by-content .container .by-product .content-product li:hover .twrap {
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transform: translate(0, 0px);
+  -webkit-transform: translate(0, 0px);
+  -moz-transform: translate(0, 0px);
+  -o-transform: translate(0, 0px);
+  -ms-transform: translate(0, 0px);
+  -webkit-box-shadow: 0px 5px 15px #e5e5e5;
+  -moz-box-shadow: 0px 5px 15px #e5e5e5;
+  box-shadow: 0px 5px 15px #e5e5e5;
+}
+.by-content .container .by-case {
+  width: 100%;
+}
+.by-content .container .by-case .content-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  margin-top: 30px;
+  text-align: center;
+}
+.by-content .container .by-case .content-name {
+  color: #999999;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
+}
+.by-content .container .by-case .case-list {
+  width: 100%;
+}
+.by-content .container .by-case .case-list ul {
+  margin-left: -20px;
+}
+.by-content .container .by-case .case-list ul li {
+  float: left;
+  width: 200px;
+  height: 230px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.by-content .container .by-case .case-list ul li p {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.by-content .container .by-case .case-list ul li p img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.by-content .container .by-case .case-list ul li p img:hover {
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Safari 和 Chrome */
+  -o-transform: scale(1.1);
+  /* Opera */
+  cursor: pointer;
+}
+.by-content .container .by-case .case-list h4 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333333;
+  padding-top: 10px;
+}
+.by-content .container .by-customers {
+  width: 100%;
+  margin-top: 30px;
+}
+.by-content .container .by-customers .content-title {
+  color: #3a3a3a;
+  font-size: 24px;
+  text-align: center;
+}
+.by-content .container .by-customers .content-name {
+  color: #999999;
+  font-size: 16px;
+  margin: 6px 0;
+  text-align: center;
+}
+.by-content .container .by-customers .customers-list {
+  width: 100%;
+}
+.by-content .container .by-customers .customers-list ul li {
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin: 30px 0 46px 48.5px;
+}
+.by-content .container .by-customers .customers-list ul li img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.by-content .container .by-customers .customers-list ul li:nth-of-type(1),
+.by-content .container .by-customers .customers-list ul li:nth-of-type(9),
+.by-content .container .by-customers .customers-list ul li:nth-of-type(17),
+.by-content .container .by-customers .customers-list ul li:nth-of-type(25) {
+  margin-left: 0;
+}
